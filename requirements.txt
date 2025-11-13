@@ -1,0 +1,7 @@
+python-telegram-bot==20.0
+python-telegram-bot[job_queue]
+telegram
+aiosqlite
+nest-asyncio
+aiogram
+apscheduler
