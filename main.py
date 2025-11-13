@@ -129,7 +129,7 @@ async def select_pair(callback: CallbackQuery, state: FSMContext):
     uid = callback.from_user.id
 
     save_pair(uid, pair)
-    logging.info(f"✅ User {uid} выбрал пару {pair}")  
+    logging.info(f"✅ User {uid} selected pair {pair}")  
 
     btn = InlineKeyboardMarkup(
         inline_keyboard=[
